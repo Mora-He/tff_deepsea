@@ -6,6 +6,9 @@ model_{$任务名}.py 是各任务的个性化模型（输出层与deepsea结构
 
 ## /data
 由train、test、valid三种数据构成。通过preprocess.py转为tfrecord格式，为模型学习工作提供所需数据。
+数据文件已上传到网盘，下载后放入/data文件夹即可
+链接：https://pan.baidu.com/s/19LSBOrui3aEexUsMt35olA 
+提取码：tff1 
 
 ## loader.py
 从train、test、valid三种数据对应数据文件读取数据的工具函数。
